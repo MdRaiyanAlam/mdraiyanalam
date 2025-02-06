@@ -1,4 +1,4 @@
-<h1 align="center"># mdraiyanalam - Hello, World!</h1>
+<h1 align="center">Hello, World!</h1>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mdraiyanalam&label=Profile%20views&color=0e75b6&style=flat" alt="mdraiyanalam" /> </p>
 
