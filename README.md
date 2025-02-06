@@ -1,6 +1,6 @@
 <h1 align="center"># mdraiyanalam - Hello, World!</h1>
 
-<h1 align="center">Greeting,hello Raiyan</h1>
+<h1 align="center">Greeting, Just Another Github User</h1>
 <h3 align="center">A Technology Enthusiast from Bangladesh BD</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mdraiyanalam&label=Profile%20views&color=0e75b6&style=flat" alt="mdraiyanalam" /> </p>
