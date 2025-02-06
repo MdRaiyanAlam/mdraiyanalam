@@ -1,23 +1,16 @@
-<h1 align="center"># mdraiyanalam</h1>
+<h1 align="center"># mdraiyanalam - Hello, World!</h1>
 
-<h1 align="center">Greeting, My name is Raiyan</h1>
+<h1 align="center">Greeting,hello Raiyan</h1>
 <h3 align="center">A Technology Enthusiast from Bangladesh BD</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mdraiyanalam&label=Profile%20views&color=0e75b6&style=flat" alt="mdraiyanalam" /> </p>
 
-- 🔭 Currently working on [[Project Name]]([Project Link])
-
 - 🌱 Gaining Experience on **ASP.NET and Data Analytics**
-
-- 👯 I’m looking to collaborate on [[Project Name]]([Project Link])
-
-- 🤝 I’m looking for help with [[Project Name]]([Project Link])
 
 - 👨‍💻 Portfolio: [https://github.com/mdraiyanalam](https://github.com/mdraiyanalam)
 
 - 📫 Reach Me **https://mdraiyanalam.github.io/raiyan.contact/**
 
-- 📄 Know about my experiences [https://mdraiyanalam.github.io/mdraiyanalam/](https://mdraiyanalam.github.io/mdraiyanalam/)
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mdraiyanalam" alt="mdraiyanalam" /></a> </p>
 
