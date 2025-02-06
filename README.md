@@ -1,6 +1,7 @@
-# mdraiyanalam
-<h1 align="center">Greeting 🫡, My name is Raiyan</h1>
-<h3 align="center">A Technology Enthusiast from Bangladesh 🇧🇩</h3>
+<h1 align="center"># mdraiyanalam</h1>
+
+<h1 align="center">Greeting, My name is Raiyan</h1>
+<h3 align="center">A Technology Enthusiast from Bangladesh Google (Noto Color Emoji 16.0)</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mdraiyanalam&label=Profile%20views&color=0e75b6&style=flat" alt="mdraiyanalam" /> </p>
 
