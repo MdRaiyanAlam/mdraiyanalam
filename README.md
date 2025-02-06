@@ -34,4 +34,4 @@
 
 <br clear="both">
 
-![snake gif](https://github.com/mdraiyanalam/mdraiyanalam/blob/output/github-snake-dark.svg)
+![snake gif](https://github.com/mdraiyanalam/mdraiyanalam/blob/output/github-snake.svg)
