@@ -40,3 +40,8 @@
 <a href="https://www.hackerrank.com/mdraiyan95" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="mdraiyan95" height="30" width="40" /></a>
 <a href="https://codeforces.com/profile/thesopranos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="thesopranos" height="30" width="40" /></a>
 </p>
+
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
