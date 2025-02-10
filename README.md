@@ -5,7 +5,7 @@
 
 - 🌱 Gaining Experience on **ASP.NET and Data Analytics**
 
-- 👨‍💻 Portfolio: [https://github.com/mdraiyanalam](https://github.com/mdraiyanalam)
+- 👨‍💻 Portfolio: **https://mdraiyanalam.github.io/mdraiyanalam/**
 
 - 📫 Reach Me **https://mdraiyanalam.github.io/raiyan.contact/**
 
