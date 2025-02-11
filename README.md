@@ -18,7 +18,7 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mdraiyanalam&show_icons=true&locale=en" alt="mdraiyanalam" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mdraiyanalam&" alt="mdraiyanalam" /></p>
+<!-- <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mdraiyanalam&" alt="mdraiyanalam" /></p> -->
 
 <!-- WEEKLY-REPORT-START -->
 *Report will be updated every Monday...*
