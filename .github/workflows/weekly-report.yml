@@ -2,7 +2,7 @@ name: Fake Contribution Booster
 
 on:
   schedule:
-    - cron: "0 0 * * 1"  # Runs every Monday at 12:00 AM UTC
+    - cron: "0 12 * * *"  # Runs every day at 12:00 PM UTC
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
