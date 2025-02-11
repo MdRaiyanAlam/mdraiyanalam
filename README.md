@@ -21,9 +21,7 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mdraiyanalam&" alt="mdraiyanalam" /></p>
 
 <!-- WEEKLY-REPORT-START -->
-<!-- WEEKLY-REPORT-START -->
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mdraiyanalam&theme=github-light)
-<!-- WEEKLY-REPORT-END -->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mdraiyanalam&show_icons=true&theme=radical)
 <!-- WEEKLY-REPORT-END -->
 
 
