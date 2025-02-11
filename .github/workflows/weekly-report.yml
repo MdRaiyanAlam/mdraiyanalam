@@ -1,37 +1,35 @@
-name: Fake Contribution Booster
+name: Daily GitHub Activity Update
 
 on:
   schedule:
-    - cron: "0 12 * * *"  # Runs every day at 12:00 PM UTC
+    - cron: "0 12 * * *"  # Runs every day at 12:00 PM UTC (Daily Update)
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
-  fake_commits:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Create Fake Contributions
+      - name: Generate Daily Report
         run: |
-          mkdir -p fake_contributions
-          echo "print('Hello from Python!')" > fake_contributions/script.py
-          echo "from django.http import HttpResponse\n\ndef home(request):\n    return HttpResponse('Django Contribution')" > fake_contributions/views.py
-          echo "#include <iostream>\nusing namespace std;\nint main() {\n cout << 'Hello from C++!';\n return 0;\n}" > fake_contributions/main.cpp
-          echo "using System;\nnamespace AspNet\n{\n class Program\n {\n static void Main()\n {\n Console.WriteLine('ASP.NET Contribution');\n }\n }\n}" > fake_contributions/Program.cs
+          echo "## 📊 Daily GitHub Activity Report" > daily_report.md
+          echo "" >> daily_report.md
+          echo "![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mdraiyanalam&theme=dark)" >> daily_report.md
+          echo "" >> daily_report.md
+          echo "📆 **Last 7 Days Contributions:**" >> daily_report.md
+          echo "" >> daily_report.md
+          curl -s https://github-contributions.vercel.app/api/mdraiyanalam | jq -r '.total' >> daily_report.md
 
-      - name: Commit and Push Fake Contributions Randomly
+      - name: Update README.md
+        run: |
+          sed -i '/<!-- DAILY_REPORT_START -->/,/<!-- DAILY_REPORT_END -->/c\<!-- DAILY_REPORT_START -->\n'$(cat daily_report.md)'\n<!-- DAILY_REPORT_END -->' README.md
+
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Generate a random number between 1 and 5
-          COUNT=$((RANDOM % 5 + 1))
-
-          for i in $(seq 1 $COUNT); do
-            echo "// Fake commit $i on $(date)" >> fake_contributions/random_$i.cpp
-            git add fake_contributions/*
-            git commit -m "🔧 Fake Commit $i for Python, Django, C++, ASP.NET"
-          done
-
+          git add README.md
+          git commit -m "📊 Updated Daily GitHub Activity Report"
           git push
